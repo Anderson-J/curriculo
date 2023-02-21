@@ -13,3 +13,10 @@
     --primary-font--size: 2rem;
     --secondary-font--size: 1.5em;
 }
+
+/*body*/
+.content {
+    background-color: var(--primary-color);
+    box-sizing: border-box;
+    color: var(--tertiary-color);
+}

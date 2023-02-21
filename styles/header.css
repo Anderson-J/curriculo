@@ -1,0 +1,14 @@
+/* Menu */
+._ch__nav {
+    display: flex;
+    gap: 5vw;
+    margin: 2% 0% 0% 5%;
+}
+
+._chn__link {
+    color: var(--secondary-color);
+    font-family: var(--secondary-font--family);
+    font-size: var(--secondary-font--size);
+    font-weight: var(--secondary-font--weight);
+    text-decoration: none;
+}

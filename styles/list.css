@@ -1,0 +1,19 @@
+._ms__ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+._msu__li {
+    color: var(--tertiary-color);
+    list-style-type: circle;
+}
+
+._msu__li:hover {
+    border-left: 3px solid var(--tertiary-color);
+    padding: 0 0 0 10px;
+    color: var(--secondary-color);
+    list-style-type: none;
+    transition: 0.2s;
+    cursor: default;
+}

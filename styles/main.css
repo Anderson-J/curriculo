@@ -1,0 +1,99 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin: 10% 5%;
+    gap: 5vw;
+}
+
+/*Conteúdo em texto*/
+.main__section {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+._ms__title {
+    font-family: var(--primary-font--family);
+    font-size: var(--primary-font--size);
+}
+
+._ms__text {
+    font-family: var(--secondary-font--family);
+    font-size: var(--secondary-font--size);
+}
+
+._ms__title--emphasis {
+    color: var(--secondary-color);
+}
+
+._ms__div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+}
+
+._msd__subtitle {
+    font-family: var(--primary-font--family);
+    font-size: var(--secondary-font--size);
+    font-weight: var(--primary-font--weight);
+    text-align: center;
+}
+
+/*Botões*/
+._ms__link--cta {
+    align-self: center;
+    border: 2px solid var(--secondary-color);
+    border-radius: 8px;
+    color: var(--tertiary-color);
+    font-family: var(--secondary-font--family);
+    font-size: var(--secondary-font--size);
+    font-weight: var(--secondary-font--weight);
+    gap: 2vw;
+    justify-content: center;
+    padding: 2vh 0;
+    text-align: center;
+    text-decoration: none;
+    width: 30vw;
+    margin-bottom: 5vh;
+}
+
+._ms__link--cta:hover {
+    background-color: var(--quaternary-color);
+    transition: 0.2s;
+}
+
+._msd__link {
+    align-items: center;
+    display: flex;
+    border: 2px solid var(--secondary-color);
+    border-radius: 8px;
+    color: var(--tertiary-color);
+    font-family: var(--secondary-font--family);
+    font-size: var(--secondary-font--size);
+    font-weight: var(--secondary-font--weight);
+    gap: 2vw;
+    justify-content: center;
+    padding: 2vh 0;
+    text-align: center;
+    text-decoration: none;
+    width: 30vw;
+}
+
+._msd__link:hover {
+    background-color: var(--quaternary-color);
+    transition: 0.2s;
+}
+
+.main__div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/*Imagem lateral*/
+._md__img {
+    width: 30vw;
+    border-radius: 100%;
+}
